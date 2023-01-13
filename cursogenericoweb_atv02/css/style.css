@@ -44,6 +44,7 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px; /*espaço entre as letras*/
+
  }
 main {
     width: 80%;
@@ -52,13 +53,16 @@ main {
 
 .content-section {
     background-color: white;
-    padding: 15px;
+    padding: 10px;
+    overflow: auto;
     margin-top: 15px;
+
 }
 
 .card p{
     background-color: rgba(0, 0, 0, 0.151);
-    padding: 10px 20px;
+    padding: 10px;
+    margin-right: 5px;
     
 }
 
@@ -67,9 +71,13 @@ img:hover{
 }
 
 .card{
-    display: inline-block;
-    text-align: center;
-    padding-left: 35px;
+    width: 32%;
+    float: left;
+    margin-top: 15px;
+    margin: 0.5%;
+    padding-left: 30px;
+    border: 2px solid rgba(0, 0, 255, 0);
+    box-sizing: border-box; 
 }
 
 .rodape {
