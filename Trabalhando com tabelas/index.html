@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: beige;
+        }
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background: beige;
+        }
+        th{
+            background: rgb(238, 97, 97);
+            border: 2px solid rgb(136, 93, 63);
+            padding: 15px;
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+
+        <caption>Tabela preços de cursos</caption>
+        <thead>
+            <tr>
+                <th>área</th>
+                <th>Curso</th>
+                <th>investimento</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a mudança</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Design</td>
+                <td>imDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                
+                <td>photoshop</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                
+                <td>Ilustrator</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Desenvolvimento</td>
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+              
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

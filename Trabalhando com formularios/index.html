@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            text-align: center;
+            background-color:#ccc ;
+        }
+        .formLogin{
+            width: 250px;
+            margin: 50px auto 0;
+            font-family: sans-serif;
+        }
+        .formLogin fieldset{
+            background-color: rgb(116, 170, 152);
+            border: none;
+        }
+        .formLogin label{
+            margin-top: 15px;
+            display: block;
+        }
+        .formLogin legend{
+           
+
+        }
+        #usuario, #senha, .btn{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            font-size: 18px;
+        }
+        #usuario:focus, #senha:focus{
+            background-color: rgb(221, 187, 187);
+            
+        }
+
+        .btn{
+            margin-top: 15px;
+        }
+
+        #usuario{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="#" method="post" class="formLogin">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="usuario">Digite seu usuario</label>
+            <input type="text" id="usuario" name="user" autofocus>
+            <label for="senha">Digite sua senha</label>
+            <input type="password" name="senha" id="senha">
+            <input type="submit" value="Logar" class="btn">
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>
